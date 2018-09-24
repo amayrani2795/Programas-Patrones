@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Alfabeto
+comment1.params=nombre
+comment1.target=Alfabeto(java.lang.String)
+comment2.params=nombre
+comment2.target=java.lang.String\ retornaContenido(java.lang.String)
+comment3.params=
+comment3.target=int\ tamanio()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Cifrado
+comment1.params=mensaje\ desplazamiento\ alfabeto
+comment1.target=Cifrado(Mensaje,\ Desplazamiento,\ Alfabeto)
+comment2.params=
+comment2.target=MensajeCifrado\ cesar()
+comment3.params=letra
+comment3.target=char\ ubicaCaracter(char)
+comment4.params=index\ alfabeto
+comment4.target=char\ aplicaDesplazamiento(int,\ Alfabeto)
+comment5.params=letra
+comment5.target=char\ compruebaEsMayuscula(char)
+comment6.params=caracter
+comment6.target=char\ compruebaEsNumero(char)
+numComments=7
