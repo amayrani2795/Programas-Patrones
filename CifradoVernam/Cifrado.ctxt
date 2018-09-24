@@ -2,7 +2,11 @@
 comment0.params=mensaje
 comment0.target=Cifrado(Mensaje)
 comment1.params=
-comment1.target=void\ Vernam()
+comment1.target=java.lang.String\ Vernam()
 comment2.params=decimal
 comment2.target=java.lang.String\ conversionBinario(int)
-numComments=3
+comment3.params=longitudCadena
+comment3.target=java.lang.String\ secuenciaAleatoria(int)
+comment4.params=cadenaenBinario
+comment4.target=java.lang.String\ orExclusiva(java.lang.String)
+numComments=5

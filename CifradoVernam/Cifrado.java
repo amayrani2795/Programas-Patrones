@@ -1,36 +1,56 @@
 import java.lang.Math; 
 
-
 public class Cifrado
 {
     // instance variables - replace the example below with your own
-   private Mensaje mensaje;
+    private Mensaje mensaje;
     public Cifrado(Mensaje mensaje)
     {
         this.mensaje=mensaje;
     }
-    
+
     public String Vernam(){
-        int salida=0; mensajeCifrado
+        int valorAscii=0;  String salida=""; MensajeCifrado mensajecifrado;
         for(int indice=0;indice<mensaje.tamanio();indice++){
-            
-            salida=(int)mensaje.toString().charAt(indice);
-            
-            
-            
+
+            valorAscii=(int)mensaje.toString().charAt(indice);
+            salida+=conversionBinario(valorAscii);
+
         }
-        
-    }
-    
-    private String conversionBinario(int decimal){
-         String binario = Integer.toBinaryString(decimal);
-         return binario;
-    }
-    
-    private void secuenciaAleatoria()
-    {
-        
+        mensajecifrado= new MensajeCifrado(orExclusiva(salida));
+
+        return salida;
     }
 
-  
+    private String conversionBinario(int decimal){
+        String binario = Integer.toBinaryString(decimal);
+        return binario;
+
+    }
+
+    private String secuenciaAleatoria(int longitudCadena)
+    {
+        int numero;String salida="";
+        for(int indice=0;indice<longitudCadena;indice++){
+
+            numero = (int) (Math.random() * 0) + 1;
+            salida+=String.valueOf(numero);
+        }
+        return salida;
+
+    }
+    
+    private String orExclusiva(String cadenaenBinario){
+        String secuencia= secuenciaAleatoria(cadenaenBinario.length()-1); String mensajeFinal="";
+          for(int indice=0;indice<cadenaenBinario.length()-1;indice++){
+              if(cadenaenBinario.charAt(indice)==secuencia.charAt(indice))
+                mensajeFinal+=0;
+                else
+                    mensajeFinal+=1;
+                
+              
+            }
+        return mensajeFinal;
+    }
+
 }
