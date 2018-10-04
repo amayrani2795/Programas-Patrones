@@ -1,12 +1,11 @@
 #BlueJ class context
-comment0.params=mensaje
-comment0.target=Cifrado(Mensaje)
+comment0.params=mensaje\ clave
+comment0.target=Cifrado(Mensaje,\ Clave)
 comment1.params=
 comment1.target=java.lang.String\ Vernam()
 comment2.params=decimal
 comment2.target=java.lang.String\ conversionBinario(int)
-comment3.params=longitudCadena
-comment3.target=java.lang.String\ secuenciaAleatoria(int)
-comment4.params=cadenaenBinario
-comment4.target=java.lang.String\ orExclusiva(java.lang.String)
-numComments=5
+comment3.params=cadenaenBinario
+comment3.target=java.lang.String\ orExclusiva(java.lang.String)
+comment3.text=\ private\ String\ secuenciaAleatoria(int\ longitudCadena)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ numero;String\ salida\="";\r\n\ \ \ \ \ \ \ \ for(int\ indice\=0;indice<longitudCadena;indice++){\r\n\r\n\ \ \ \ \ \ \ \ \ \ \ \ numero\ \=\ (int)\ (Math.random()\ *\ 0)\ +\ 1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ salida+\=String.valueOf(numero);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ salida;\r\n\r\n}
+numComments=4

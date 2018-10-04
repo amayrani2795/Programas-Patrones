@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Clave
+comment1.params=clave
+comment1.target=Clave(java.lang.String)
+comment1.text=\r\n\ Construtor\ de\ la\ clase.\r\n
+comment2.params=
+comment2.target=Letra[]\ obtenerLetras()
+numComments=3

@@ -6,6 +6,7 @@ public class MensajeCifrado
     public MensajeCifrado(String mensaje)
     {
        this.mensaje=mensaje;
+      // System.out.print(mensaje);
     }
 
   

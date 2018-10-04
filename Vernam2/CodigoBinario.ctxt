@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CodigoBinario
+comment1.params=letra
+comment1.target=CodigoBinario(Letra)
+comment1.text=\r\n\ Constructor\ de\ la\ clase.\r\n\ \r\n\ @param\ letra\r\n
+comment2.params=letra
+comment2.target=java.lang.String\ obtenerBinario(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ para\ obtener\ el\ n\u00FAmero\ binario\ de\ una\ letra.\r\n
+comment3.params=numeroBinario\ segundoNumeroBinario
+comment3.target=java.lang.String\ sumarBinarios(java.lang.String,\ java.lang.String)
+comment4.params=binario
+comment4.target=java.lang.String\ obtener5ElementosBinarios(java.lang.String)
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Alfabeto
+comment1.params=alfabeto
+comment1.target=Alfabeto(java.lang.String)
+comment2.params=
+comment2.target=Letra[]\ obtenerLetras()
+numComments=3

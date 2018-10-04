@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=mensajeCifrado\ clave
+comment0.target=Descifrado(Cifrado,\ Clave)
+comment1.params=
+comment1.target=void\ descifrado()
+numComments=2

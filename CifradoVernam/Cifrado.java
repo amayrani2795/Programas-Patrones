@@ -4,13 +4,16 @@ public class Cifrado
 {
     // instance variables - replace the example below with your own
     private Mensaje mensaje;
-    public Cifrado(Mensaje mensaje)
+    private Clave clave;
+    String salida="";
+    public Cifrado(Mensaje mensaje,Clave clave)
     {
         this.mensaje=mensaje;
+        this.clave=clave;
     }
 
     public String Vernam(){
-        int valorAscii=0;  String salida=""; MensajeCifrado mensajecifrado;
+        int valorAscii=0;   MensajeCifrado mensajecifrado;
         for(int indice=0;indice<mensaje.tamanio();indice++){
 
             valorAscii=(int)mensaje.toString().charAt(indice);
@@ -28,7 +31,7 @@ public class Cifrado
 
     }
 
-    private String secuenciaAleatoria(int longitudCadena)
+   /* private String secuenciaAleatoria(int longitudCadena)
     {
         int numero;String salida="";
         for(int indice=0;indice<longitudCadena;indice++){
@@ -38,10 +41,11 @@ public class Cifrado
         }
         return salida;
 
-    }
+    }*/
     
     private String orExclusiva(String cadenaenBinario){
-        String secuencia= secuenciaAleatoria(cadenaenBinario.length()-1); String mensajeFinal="";
+       // Clave clave= new Clave(mensaje);
+        String secuencia= clave.secuenciaAleatoria(salida.length()); String mensajeFinal="";
           for(int indice=0;indice<cadenaenBinario.length()-1;indice++){
               if(cadenaenBinario.charAt(indice)==secuencia.charAt(indice))
                 mensajeFinal+=0;

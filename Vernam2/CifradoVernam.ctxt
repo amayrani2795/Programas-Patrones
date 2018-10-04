@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CifradoVernam
+comment1.params=alfabeto\ clave
+comment1.target=CifradoVernam(Alfabeto,\ Clave)
+comment2.params=
+comment2.target=MensajeCifrado\ cifrarMensaje()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

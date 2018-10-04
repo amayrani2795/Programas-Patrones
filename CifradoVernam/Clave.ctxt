@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Clave()
+comment1.params=longitud
+comment1.target=java.lang.String\ secuenciaAleatoria(int)
+numComments=2
